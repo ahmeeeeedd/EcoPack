@@ -1,7 +1,14 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Mail, Phone, MapPin, Facebook, Instagram, Twitter } from 'lucide-react';
-import { useLanguage } from '../../contexts/LanguageContext';
+import React from "react";
+import { Link } from "react-router-dom";
+import {
+  Mail,
+  Phone,
+  MapPin,
+  Facebook,
+  Instagram,
+  Twitter,
+} from "lucide-react";
+import { useLanguage } from "../../contexts/LanguageContext";
 
 const Footer: React.FC = () => {
   const { t } = useLanguage();
@@ -13,8 +20,9 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">ÉcoPack</h3>
             <p className="text-green-200 mb-4">
-              Solutions d'emballage biodégradables à base de fibres de palmier-dattier et 
-              d'algues tunisiennes pour un avenir plus durable.
+              Solutions d'emballage biodégradables à base de fibres de
+              palmier-dattier et d'algues tunisiennes pour un avenir plus
+              durable.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-white hover:text-green-300">
@@ -28,9 +36,9 @@ const Footer: React.FC = () => {
               </a>
             </div>
           </div>
-          
+
           <div>
-            <h3 className="text-lg font-semibold mb-4">{t('contactUs')}</h3>
+            <h3 className="text-lg font-semibold mb-4">{t("contactUs")}</h3>
             <div className="space-y-2">
               <p className="flex items-center text-green-200">
                 <Mail className="h-5 w-5 mr-2" />
@@ -38,44 +46,40 @@ const Footer: React.FC = () => {
               </p>
               <p className="flex items-center text-green-200">
                 <Phone className="h-5 w-5 mr-2" />
-                <span>+216 71 234 567</span>
+                <span>+216 56 100 172</span>
               </p>
               <p className="flex items-center text-green-200">
                 <MapPin className="h-5 w-5 mr-2" />
-                <span>Technopole Borj Cedria, Tunis, Tunisie</span>
+                <span>Insat , Ariana, Tunisie</span>
               </p>
             </div>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-4">Liens</h3>
             <ul className="space-y-2 text-green-200">
               <li>
-                <Link to="/about" className="hover:text-white transition-colors">
-                  {t('about')}
+                <Link
+                  to="/about"
+                  className="hover:text-white transition-colors"
+                >
+                  {t("about")}
                 </Link>
               </li>
               <li>
-                <Link to="/sponsors" className="hover:text-white transition-colors">
-                  {t('sponsors')}
+                <Link
+                  to="/sponsors"
+                  className="hover:text-white transition-colors"
+                >
+                  {t("sponsors")}
                 </Link>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  {t('termsOfService')}
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  {t('privacyPolicy')}
-                </a>
               </li>
             </ul>
           </div>
         </div>
-        
+
         <div className="border-t border-green-700 mt-8 pt-8 text-center text-green-300">
-          <p>{t('copyright')}</p>
+          <p>{t("copyright")}</p>
         </div>
       </div>
     </footer>
