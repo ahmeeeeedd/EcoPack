@@ -1,10 +1,10 @@
 // Mock user data
 export const currentUser = {
   id: 1,
-  name: "Madame NAOUEL ABDELMOULA",
-  email: "Naoul@example.com",
-  points: 2750,
-  rank: 8,
+  name: "Madame Samira BOUAZIZ",
+  email: "Samira@example.com",
+  points: 6750,
+  rank: 1,
   pointsHistory: [
     { date: "2025-01-01", points: 100, product: "Café Bio" },
     { date: "2025-01-08", points: 150, product: "Dattes Deglet Nour" },
@@ -26,16 +26,15 @@ export const currentUser = {
 
 // Mock leaderboard data
 export const leaderboard = [
-  { id: 5, name: "Chayma Nouri", points: 4830, rank: 1 },
-  { id: 8, name: "Maher Mahmoudi", points: 4215, rank: 2 },
-  { id: 3, name: "Ahmed hnana", points: 3950, rank: 3 },
-  { id: 12, name: "Ibtihel Ayari", points: 3760, rank: 4 },
-  { id: 7, name: "Yassin Bouktif", points: 3580, rank: 5 },
-  { id: 9, name: "Selim Boujneh", points: 3320, rank: 6 },
-  { id: 2, name: "Maram Cheikh", points: 3105, rank: 7 },
-  { id: 1, name: "Ameni Ziadi", points: 2750, rank: 8 },
-  { id: 6, name: "Olfa Riahi", points: 2490, rank: 9 },
-  { id: 10, name: "Slim Feriani", points: 2320, rank: 10 },
+  { id: 5, name: "Madame Samira BOUAZIZ", points: 4890, rank: 1 },
+  { id: 5, name: "Chayma Nouri", points: 4830, rank: 2 },
+  { id: 8, name: "Ahmed hnana", points: 4215, rank: 3 },
+  { id: 3, name: "Nada Albouchi", points: 3950, rank: 4 },
+  { id: 12, name: "Aya Mokhtar", points: 3760, rank: 5 },
+  { id: 7, name: "Hela Talbi", points: 3580, rank: 6 },
+  { id: 9, name: "Yosser ben sghaier", points: 3320, rank: 7 },
+  { id: 2, name: "Maram Cheikh", points: 3105, rank: 8 },
+  { id: 1, name: "Ameni Ziadi", points: 2750, rank: 9 },
 ];
 
 // Mock rewards data
